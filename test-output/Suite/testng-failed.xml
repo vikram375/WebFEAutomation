@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="WeatherPackage.WeatherProj.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="WeatherPackage.WeatherProj.TempHumidCompare">
+        <methods>
+          <include name="compare"/>
+        </methods>
+      </class> <!-- WeatherPackage.WeatherProj.TempHumidCompare -->
+      <class name="WeatherPackage.WeatherProj.Ndtv">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="homepage"/>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- WeatherPackage.WeatherProj.Ndtv -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

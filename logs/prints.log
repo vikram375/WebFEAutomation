@@ -1,0 +1,19 @@
+01:48:50.246 [main] INFO  Resources.Base - Order details are as follows -->
+01:48:50.267 [main] INFO  Resources.Base - Id: 4359860
+Amount: 790 USD
+Card Number: 7890
+Name: Vikram
+Date: 18/10/2020
+01:48:50.267 [main] INFO  Resources.Base - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01:48:50.271 [main] INFO  Resources.Base - The expected amount for the laptop is-->$790 *includes tax
+01:48:50.272 [main] INFO  Resources.Base - The purchase amount for the laptop is-->790 USD
+01:51:46.848 [main] INFO  Resources.Base - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01:51:46.858 [main] INFO  Resources.Base - Order details are as follows -->
+01:51:46.858 [main] INFO  Resources.Base - Id: 4836898
+Amount: 700 USD
+Card Number: 7890
+Name: Vikram
+Date: 18/10/2020
+01:51:46.860 [main] INFO  Resources.Base - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+01:51:46.864 [main] INFO  Resources.Base - The expected amount for the laptop is-->$790 *includes tax
+01:51:46.864 [main] INFO  Resources.Base - The purchase amount for the laptop is-->700 USD

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="WebFE.WebFEAuto.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <classes>
+      <class name="WebFE.WebFEAuto.Laptop">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="compare"/>
+        </methods>
+      </class> <!-- WebFE.WebFEAuto.Laptop -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
